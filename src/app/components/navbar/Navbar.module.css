@@ -1,0 +1,35 @@
+ .contactButton {
+  display: flex;
+  width: 130px;
+  height: 38px;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  gap: 10px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(90deg, #007cf0 0%, #00dfd8 100%);
+  border-image-slice: 1;
+  border-radius: 4px;
+  background: #000;
+  transition: all 100ms ease-in-out;
+  /* box-shadow: 12px 0px 40px 0px rgba(0, 223, 216, 0.1),
+    -12px 0px 40px 0px rgba(198, 255, 221, 0.1),
+    0px 12px 40px 0px rgba(0, 124, 240, 0.1),
+    0px -12px 40px 0px rgba(0, 124, 240, 0.1); */
+}
+
+.contactButton:hover{
+  background: linear-gradient(90deg, #007cf0 0%, #00dfd8 100%);
+  border-radius: 10px;
+  border: none;
+ 
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Caladea:ital@1&family=Dancing+Script:wght@700&family=Merriweather:ital@1&family=PT+Serif&family=Poppins&display=swap');
+.eventBanner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}.eventWrapper{
+    display: flex;
+    width: 95%;
+    gap: 1rem;
+    padding: 10px;
+    border: 1.22951px solid rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(20.5246px);
+    border-radius: 122.951px;
+    background: linear-gradient(111.68deg, rgba(221, 221, 221, 0.15) 7.59%, rgba(221, 221, 221, 0.3) 102.04%);
+    border-radius: 12px;
+}
+.eventDetails{
+    width: 98%;
+}
+.imgBanner{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+   height: auto;
+    min-width: 250px;
+}
+.eventHeading{
+    font-family: 'Bacasime Antique', serif;
+    padding: 20px 10px 10px  10px;
+    font-size: clamp(2rem,3vw,4rem);
+    font-weight: 500;  
+    color: white;
+}
+.eventHeading p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.eventPara{
+    color: white;
+    padding: 10px;
+    font-size: clamp(1rem,1.5vw,1rem);
+}
+.img{
+    border-radius: 10px;
+}
+.eventBottom{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 3rem;
+}
+.eventButton{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.contactButton {
+    display: flex;
+    width: 130px;
+    height: 38px;
+    padding: 26px 32px;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 10px;
+    margin-top: -15px;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #007cf0 0%, #00dfd8 100%);
+    border-image-slice: 1;
+    border-radius: 8px;
+    background: #000;
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+  }
+@media(max-width:1200px){
+    .eventWrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    .eventBanner{
+        padding: 0;
+        gap: 0;
+    }
+    .imgBanner{
+        width: auto;
+    }
+    .eventHeading{
+        text-align: center;
+    }
+    .eventBottom{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width:600px){
+    .eventBottom{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

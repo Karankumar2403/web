@@ -1,0 +1,97 @@
+.section {
+    @apply my-16 py-16 w-3/4 mx-auto;
+    @apply lg:w-3/5 lg:my-12 lg:py-8;
+    @apply md:my-8 md:mt-4 md:py-6;
+    @apply sm:pt-0 sm:w-[85%] sm:mb-0 sm:h-full;
+  }
+  
+  .section::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+    
+  }
+  .wrapper {
+    @apply w-2/5 ;
+    overflow: hidden;
+    position: relative;
+
+  }
+  .wrapper .imgBoxWrapper {
+    @apply w-full h-full relative opacity-0;
+    @apply sm:!opacity-100;
+    
+  }
+  @media (max-width: 900px){
+    .section{
+        width: 80%;
+    }
+    .wrapper {
+      width: 100%; /* You can adjust the percentage as needed */
+    } 
+  }
+  
+  @media (max-width: 800px) {
+    
+    .section{
+        width: 80%;
+    }
+    .wrapper {
+      width: 80%; /* You can adjust the percentage as needed */
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .wrapper .imgBoxWrapper {
+      clip-path: none  !important ;
+    }
+    .section{
+        width: 100%;
+    }
+    .wrapper {
+      width: 100%; /* You can adjust the percentage as needed */
+    }
+  }
+  
+  .imgBoxWrapper .image {
+    @apply w-full h-full overflow-hidden relative;
+  }
+  
+  .imgBoxWrapper .image img {
+    @apply w-full h-full object-cover object-center cursor-pointer;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .imgBoxWrapper:hover .image img {
+    @apply scale-125;
+  }
+  
+  .imgBoxWrapper .text {
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    /* transition: all 0.5s ease-in-out;
+    background: linear-gradient(to bottom, rgba(242, 243, 244, 0.3) 41%,rgba(128,213,241,0.3) 50%,rgba(2, 2, 2, 0.7) 74%); */
+    
+
+    @apply  text-[#fbfafa]  w-full text-center text-2xl pointer-events-none;
+    @apply sm:py-3 sm:text-base;
+  }
+  .imgBoxWrapper:hover .text {
+    top: 0%;
+    font-size: 24px;
+    opacity: 1;
+  
+  }
+  

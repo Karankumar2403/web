@@ -1,0 +1,12 @@
+.container{
+    width: 100%;
+    overflow-x: auto;
+    border-inline: 2px solid grey;
+
+}
+
+@media(max-width:460px){
+    .box{
+        gap:6rem;
+    }
+}

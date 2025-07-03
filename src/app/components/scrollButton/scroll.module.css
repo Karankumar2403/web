@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    cursor: pointer;
+  }
+  
+  .mouse {
+    height: 35px;
+    width: 3px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1.7rem;
+    padding: 0 1.6rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.7s;
+    padding: 2rem 1.3rem;
+  }
+  
+  .mouse:hover {
+    border: 2px solid blue;
+    box-shadow: 0px 0px 14px 1px rgb(36 172 255);
+  }
+  
+  .cursor {
+    height: 14px;
+    width: 4px;
+    animation: scrollDown 2s infinite forwards;
+    animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+    position: absolute;
+    border-radius: 20px;
+    top: 1.2rem;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .mouse:hover .cursor {
+    background-color: rgb(227, 227, 234);
+    animation: none;
+  }
+  
+  @keyframes scrollDown {
+    0% {
+    top:0;
+     opacity:100%;
+    }
+    100% {
+     top: 50%;
+     opacity: 0;
+    }
+  }

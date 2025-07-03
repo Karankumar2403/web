@@ -1,0 +1,23 @@
+.footer{
+    background: #000;
+    color: aquamarine;
+    position: sticky;
+    color: #FFFFFF;
+    
+}
+.icons{
+ display: none;
+   gap: 2rem;
+}
+.link{
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+}
+
+@media(max-width:676px){
+    .icons{
+        display: flex;
+    }
+}

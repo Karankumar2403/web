@@ -1,0 +1,933 @@
+.contactform {
+  display: flex;
+  /* align-items: center; */
+  justify-content:center;
+  background: #111111;
+  box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+    0px 12px 40px rgba(0, 223, 216, 0.1),
+    -12px 0px 40px rgba(198, 255, 221, 0.1),
+    12px 0px 40px rgba(0, 124, 240, 0.1);
+  border-radius: 8px;
+  /* padding: 20px 1.5em; */
+  margin: auto;
+  width: 80%;
+  /* margin-top: 500px; */
+  
+}
+.contactLeft {
+  display: flex;
+  flex-direction: column;
+  
+  /* justify-content: left; */
+  /* align-items: center; */
+  width: 45% ;
+  text-align: left;
+  /* justify-content: left; */
+  margin-top: 10%;
+  
+  /* height: 45%; */
+
+}
+.contactLeftHead{
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  /* align-items: ; */
+  text-align: left;
+  /* background-color: red; */
+  /* margin-left: 0; */
+  
+ 
+}
+.contactHeading{
+  margin-bottom: 3%;
+  font-size: clamp(2rem,2vw,5rem);
+  /* background-color: red; */
+  /* font-size: xx-small; */
+  
+  
+}
+.contactLeftMail{
+  margin-bottom: 6%;
+  font-size: clamp(2rem,2vw,5rem);
+  font-size: 30px;
+  /* background-color: white;
+  font-size: 25px; */
+  
+}
+
+.contactLeftSocial{
+  font-size: clamp(2rem,2vw,5rem);
+  font-size: 30px;
+ 
+}
+.contactRight {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.contactFormTitle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  padding: 2px;
+}
+.formHeading {
+  font-family: Poppins;
+  /* font-size: 36px; */
+  margin-top: 1.2em;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  background: linear-gradient(90deg, #007cf0 10.73%, #00dfd8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.contactHeader{
+  background: #111111;
+  box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+    0px 12px 40px rgba(0, 223, 216, 0.1),
+    -12px 0px 40px rgba(198, 255, 221, 0.1),
+    12px 0px 40px rgba(0, 124, 240, 0.1);
+  border-radius: 8px;
+  padding: 20px 1.5em;
+}
+.icons{
+  margin-top: 20px;
+  gap: 2rem;
+
+}
+.iconsDivide{
+ color: white;
+}
+.link{
+   /* height: 2em;
+   width: 2em; */
+   /* margin-left: 1.2em;  */
+   cursor: pointer;
+   /* justify-content: center; */
+   /* background-color: red; */
+}
+
+.formBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.formBody {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+  height: 95%;
+  
+  padding: 20px;
+  margin-top: 60px;
+}
+.nameBox {
+  display: flex;
+  flex-direction: column;
+}
+.labels {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.inputs {
+  height: 2.3rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid #a9a9a9;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  text-indent: 1rem;
+  color: white;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.text {
+  color: white;
+  height: 7rem;
+  border: 1px solid #a9a9a9;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 10px;
+}
+.PostComments {
+  color: white;
+  width: 10rem;
+  height: 2.5rem;
+  /* margin-top: 1rem; */
+  margin-top: 5px;
+  border-radius: 4px;
+  background: linear-gradient(94deg, #00dfd8 0%, #007cf0 99.99%, #007cf0 100%);
+  box-shadow: 12px 0px 40px 0px rgba(0, 124, 240, 0.1),
+    -12px 0px 40px 0px rgba(198, 255, 221, 0.1),
+    0px 12px 40px 0px rgba(0, 223, 216, 0.1),
+    0px -12px 40px 0px rgba(0, 223, 216, 0.1);
+}
+
+@media (max-width: 1300px) {
+  .details {
+    flex-direction: column;
+  }
+  .contactFormWrapper {
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .contactFormWrapper {
+    width: 100%;
+    gap: 0.5rem;
+  }
+ 
+}
+@media (max-width: 700px) {
+ 
+  .contactform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  .contactLeftHead{
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items: ; */
+    text-align: left;
+    /* background-color: red; */
+    /* margin-left: 0; */
+    /* background-color: white; */
+    align-items: center;
+    
+   
+  }
+  .link{
+    /* height: 2em;
+    width: 2em; */
+    /* margin-left: 1.2em;  */
+    cursor: pointer;
+    /* justify-content: center; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+  .contactHeading{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: red; */
+    text-align: center;
+    /* font-size: 25px; */
+    
+    
+  }
+  .socialicons{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* font-size: xx-large; */
+  }
+  .contactpara{
+    /* font-size: x-large; */
+    /* background-color: red; */
+    text-align: center;
+    /* background-color: red; */
+  }
+  .contactLeft{
+    padding: 2rem;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+  }
+  .contactRight{
+    width: 90%;
+  }
+
+  .formBody {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .contact-form-wrapper {
+    width: 100%;
+    gap: 0.5rem;
+  }
+  .formBody {
+    width: 100%;
+  }
+  
+  
+}
+@media(max-width:500px){
+
+  .contactform{
+    display: flex;
+    flex-direction: column;
+  } 
+}
+.items:hover{
+  color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* correction */
+@media(max-width:320px){
+  .contactLeftHead{
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    text-align: left;
+    
+    
+   
+  }
+  .contactpara{
+    font-size: 10px !important;
+
+  }
+  .contactHeading{
+    
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    font-size: 25px !important;
+    margin-top: 20px;
+    font: bold;
+    
+  }
+
+  .contactLeft {
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+    width: 95% !important;
+    text-align: left;
+   
+    margin-top: 10%;
+    
+   
+  
+  }
+  
+  .contactform {
+    padding-top: 30px;
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+   
+    width: 100%;
+   
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 7%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 20px !important;
+
+  }
+  
+}
+@media (max-width:376px) {
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 20px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 95% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 7%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 20px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 20px !important;
+    
+  }
+}
+@media(max-width:426px){
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 95% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 7%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+   
+  }
+  
+}
+@media(min-width:701px) {
+  
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 10% !important;
+    width: 45% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 4%;
+    display: flex;
+    
+    flex-direction: column;
+    
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    
+  }
+  .labels {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+  }
+  .inputs {
+    height: 2.3rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-indent: 1rem;
+    color: white;
+    
+    font-size: 15px;
+  }
+  
+}
+
+@media (min-width:1024px) {
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    padding-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 15% !important;
+    width: 45% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+    
+  }
+  
+  .contactform {
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 4%;
+    display: flex;
+    
+    flex-direction: column;
+    
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .labels {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+  }
+  .inputs {
+    height: 2.3rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-indent: 1rem;
+    color: white;
+    
+    font-size: 15px;
+  }
+  
+}
+@media (min-width:1300px) {
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 45% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+    padding-left: 15% !important;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 4%;
+    display: flex;
+    
+    flex-direction: column;
+    
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .labels {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+  }
+  .inputs {
+    height: 2.3rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-indent: 1rem;
+    color: white;
+    
+    font-size: 15px;
+  }
+}
+@media (min-width:1440px) {
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 45% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+    padding-left: 25% !important;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 4%;
+    display: flex;
+    
+    flex-direction: column;
+    
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .labels {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+  }
+  .inputs {
+    height: 2.3rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-indent: 1rem;
+    color: white;
+    
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,10 @@
+.text{
+    text-wrap:balance;
+}
+@media(max-width:600px){
+    .about{
+        margin-left: 1rem;
+        width: 95%;
+    }
+    
+}

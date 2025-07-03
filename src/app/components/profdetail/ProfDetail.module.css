@@ -1,0 +1,108 @@
+
+.header{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    overflow-x: hidden;
+    background: linear-gradient(
+        111.68deg,
+        rgba(221, 221, 221, 0.08) 78.43%,
+        rgba(255, 255, 255, 0.18) 102.04%
+      );
+    
+      backdrop-filter: blur(5px);
+      border-radius: 15px;
+    
+}
+.left{
+    /* margin-right: 5%;
+    margin-left: 10%; */
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    /* margin-right: 5%; */
+    text-align: center;
+    width: 65%;
+}
+.container{
+    height: 180px;
+    width: 180px;
+    margin-left: 5%;
+    margin-top: 4%;
+    position: relative;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    /* top: -25%; */
+
+}
+.para{
+    text-wrap:balance;
+}
+.leftDown{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.name{
+    color: linear-gradient(90deg, #007cf0 10.73%, #00dfd8 100%);
+    line-height: 1.2em;
+    font-size: 2.4em;
+    margin-top: 8%;
+    margin-inline: auto;
+}
+.subsidary{
+    margin-top: 1%;
+    color: #AFC6FF;
+  /* text-align: start; */
+}
+
+.college{
+    font-size: 1em;
+}
+.pos{
+    margin-top: 5%;
+    color: #AFC6FF;
+    font-size: 1.4em;
+    font-weight:bolder;
+}
+.dept{
+    font-size: 1em;
+    margin-top: 1%;
+    color: #AFC6FF;
+    
+}
+.word{
+    margin-top: 3%;
+    text-align: left;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.readbtn{
+    background-color: #637575;
+    border-radius: 5px;
+    width: 7rem;
+    padding: 8px 8px;
+    margin-top: 1rem;
+    background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+@media(max-width:640px){
+
+    .header{
+        flex-direction: column;
+    } 
+    .word{
+        text-align: center;
+    }
+}
