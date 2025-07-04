@@ -129,7 +129,7 @@ export const TeamData2k22 =[
     {
         name:'Shivam Raj',
         pos:'Joint Treasurer & Event Coordinator',
-        imgSrc:'',
+        imgSrc:'shivam raj.jpg',
         socials:{
             github:'',
             email:'',
