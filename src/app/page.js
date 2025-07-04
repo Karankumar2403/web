@@ -7,7 +7,7 @@ import Profword from "./components/prof/Profword";
 import Contact from "./components/contact/Contact";
 
 export const metadata = {
-  title: "ECE Society",
+  title: "ECE SOCIETY",
   description: "",
 };
 
@@ -16,7 +16,7 @@ export default function Page() {
     <>
       <Head>
       
-        <title>ECE Society</title>
+        <title>ECE SOCIETY</title>
 
       </Head>
       <script
