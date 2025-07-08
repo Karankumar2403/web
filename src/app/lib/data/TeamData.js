@@ -90,7 +90,7 @@ export const TeamData2k22 =[
     {
         name:'Abhay Kumar',
         pos:'Treasurer',
-        imgSrc:'ABHAYKUMAR(1).png',
+        imgSrc:'abhay_kumar.png',
         socials:{
             github:'leanwithkumar',
             email:'mrhustle936@gmail.com',
@@ -152,7 +152,7 @@ export const TeamData2k22 =[
      {
         name:'Shikha Rani Singh ',
         pos:'Editor-in-Chief',
-        imgSrc:'Shikha Rani Singh.png',
+        imgSrc:'ShikhaRaniSingh.jpg',
         socials:{
             github:'Shikha01052001',
             email:'shikharanisingh639@gmail.com',
