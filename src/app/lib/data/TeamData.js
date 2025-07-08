@@ -35,7 +35,7 @@ export const TeamData2k22 =[
     {
         name:'Harsh Raj',
         pos:'General Secretary',
-        imgSrc:'HARSH.jpg',
+        imgSrc:'harsh.png',
         socials:{
             github:'',
             email:'rharsh808@gmail.com',
@@ -68,7 +68,7 @@ export const TeamData2k22 =[
      {
         name:'Ashish Kumar Mahto',
         pos:'Joint Secretary',
-        imgSrc:'ashish_kumar.jpg',
+        imgSrc:'ashish_kumar.png',
         socials:{
             github:'ashish3180',
             email:'ashishmehta3189@gmail.com',
@@ -79,7 +79,7 @@ export const TeamData2k22 =[
      {
         name:'Amisha Kumari Soren ',
         pos:'Joint Secretary',
-        imgSrc:'Amisha Kumari Soren.jpg',
+        imgSrc:'amisha_kumari.png',
         socials:{
             github:'',
             email:'amishashurin@gmail.com',
@@ -90,7 +90,7 @@ export const TeamData2k22 =[
     {
         name:'Abhay Kumar',
         pos:'Treasurer',
-        imgSrc:'ABHAY KUMAR.jpg',
+        imgSrc:'ABHAYKUMAR(1).png',
         socials:{
             github:'leanwithkumar',
             email:'mrhustle936@gmail.com',
@@ -129,7 +129,7 @@ export const TeamData2k22 =[
     {
         name:'Shivam Raj',
         pos:'Joint Treasurer & Event Coordinator',
-        imgSrc:'shivam raj.jpg',
+        imgSrc:'shivam raj(1).png',
         socials:{
             github:'',
             email:'',
@@ -140,7 +140,7 @@ export const TeamData2k22 =[
        {
         name:'Gourav Mondal',
         pos:'Joint Treasurer',
-        imgSrc:'Gourav Mondal.jpg',
+        imgSrc:'Gourav2.png',
         socials:{
             github:'Gourav123-sys',
             email:'mondalgourav227@gmail.com',
@@ -152,7 +152,7 @@ export const TeamData2k22 =[
      {
         name:'Shikha Rani Singh ',
         pos:'Editor-in-Chief',
-        imgSrc:'Shikha Rani Singh.jpg',
+        imgSrc:'Shikha Rani Singh.png',
         socials:{
             github:'Shikha01052001',
             email:'shikharanisingh639@gmail.com',
@@ -164,7 +164,7 @@ export const TeamData2k22 =[
      {
         name:'Chahat Kumari',
         pos:'Alumni-in-Charge',
-        imgSrc:'Chahat Singh.jpg',
+        imgSrc:'chahat_singh.png',
         socials:{
             github:'chahat-git',
             email:'nairasingh151@gmail.com',
