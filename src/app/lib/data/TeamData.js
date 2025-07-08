@@ -171,7 +171,7 @@ export const TeamData2k22 =[
             linkedin:'chahat-singh-a709b4251',
             insta:'chahatsingh0306',
         }
-    }
+    },
 
          
 ]

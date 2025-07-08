@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './PostHead.module.css'
 import TeamCard from '../teamcard/TeamCard'
-import { TeamData2k21 } from '@/app/lib/data/TeamData'
+import { TeamData2k22 } from '@/app/lib/data/TeamData'
 import StyledText from '../text/StyledText'
 
 const PostHead = () => {
@@ -16,7 +16,7 @@ const PostHead = () => {
         </StyledText>
         <div className={`${style.container}`}>
         <div className={`flex gap-8 p-8 ${style.box}`}>
-            {TeamData2k21.map((item) => {
+            {TeamData2k22.map((item) => {
                     {item.imgSrc=item.imgSrc.replace('.jpg','.png')}
                     
                     return (
@@ -24,9 +24,9 @@ const PostHead = () => {
                         <TeamCard
                         name={item.name}
                         pos={item.pos}
-                        imgSrc={'/teams/2K21/'+item.imgSrc}
+                        imgSrc={'/teams/2K22/'+item.imgSrc}
                         lazyImgSrc=   
-                         {'/teams/2K21/lazy/'+item.imgSrc}
+                         {'/teams/2K22/lazy/'+item.imgSrc}
                         socials={item.socials}
                     />
                     </div>
