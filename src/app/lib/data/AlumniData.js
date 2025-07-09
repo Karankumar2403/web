@@ -357,6 +357,192 @@ export const TeamData2k20=[
         },
     }
 ]
+export const TeamData2k21 =[
+    {
+        name:'Akash kumar',
+        //pos:'President',
+        company:'TCS Ninja',
+        imgSrc:'akash_kumar.png',
+        socials:{
+            github:'',
+            email:'akashashokasha@gmail.com',
+            linkedin:'akash-kumar-7b4086245',
+            insta:'a.k.ash.k.um.ar',
+        },
+    },
+    {
+        name:'Samia Nishaat',
+       // pos:'Vice President',
+        company:'NBC Bearings',
+        imgSrc:'Samia Nishaat.png',
+        socials:{
+            github:'',
+            email:'samiabksc@gmail.com',
+            linkedin:'samianishaat',
+            insta:'samianishaat',
+        },
+    },
+    
+    {
+        name:'Priyanshu katyayni',
+       // pos:'Vice President',
+       company:'GlobalLogic Hitachi',
+        imgSrc:'priyanshu_katyayni.png',
+        socials:{
+            github:'lonewolf2299',
+            email:'priyanshukatyayni229@gmail.com',
+            linkedin:'priyanshu-katyayni-70b0a4233',
+            insta:'priyanshu._.13',
+        },
+    },
+    
+    {
+        name:'Rohit Kumar',
+        //pos:'General Secretary',
+        company:'GlobalLogic Hitachi',
+        imgSrc:'rohit_kumar.png',
+        socials:{
+            github:'rohitkumar9897',
+            email:'rohitku8210610477@gmail.com',
+            linkedin:'rohitkumar--/',
+            insta:'_rohit_k.u.m.a.r_',
+        },
+    },
+    {
+        name:'Mohit Pandey ',
+       // pos:'Technical Secretary',
+       company:'GlobalLogic Hitachi',
+        imgSrc:'mohit_pandey.png',
+        socials:{
+            github:'MOHIT-PANDEY215',
+            email:'pandeymohit215@gmail.com',
+            linkedin:'mohit-pandey-5b0756197',
+            insta:'pandeymohit215',
+        },
+    },
+    {
+        name:'Aditya Bhardwaj',
+       // pos:'Technical Head',
+       company:'',
+        imgSrc:'aditya_bhardwaj.png',
+        socials:{
+            github:'adityaS49',
+            email:'aditya.s21@outlook.com',
+            linkedin:'aditya-bhardwaj-01027b21b/',
+            insta:'_aditya.s21__',
+        },
+    },   
+    {
+        name:'Tushar kumar',
+        //pos:'Joint-Secretary & Pro',
+        company:'',
+        imgSrc:'tushar_kumar.png',
+        socials:{
+            github:'',
+            email:'tusharkumar121002@gmail.com',
+            linkedin:'',
+            insta:'Tushar_1729',
+        },
+    },
+    {
+        name:'Esha Kumari',
+       // pos:'Joint Secretary',
+       company:'',
+        imgSrc:'esha_kumari.png',
+        socials:{
+            github:'Esha-01',
+            email:'eshakumari2002@gmail.com',
+            linkedin:'esha-kumari-47b854232',
+            insta:'wassup_esha',
+        },
+    },
+    {
+        name:'Dipanshu Ranjan',
+       // pos:'Treasurer',
+       company:'TCS Ninja',
+        imgSrc:'dipanshu_ranjan.png',
+        socials:{
+            github:'',
+            email:'dtdtstst1@gmail.com',
+            linkedin:'',
+            insta:'Dipanshu1133',
+        },
+    },
+    {
+        name:'Aayushi',
+        //pos:'Treasurer & Alumni Incharge',
+        company:'JPL(Jindal Power Limited)',
+        imgSrc:'aayushi_arya.png',
+        socials:{
+            github:'Aarya1527',
+            email:'aayushi.khu@gmail.com',
+            linkedin:'aayushi-aarya-820138231/',
+            insta:'aayushi_aarya15',
+        },
+    },
+    {
+        name:'Abhay  Narayan',
+       // pos:'Joint-Treasurer & Event Coordinator',
+       company:'TCS Prime',
+        imgSrc:'abhay_narayan.png',
+        socials:{
+            github:'naraynabhay',
+            email:'abhaynarayan07062002@gmail.com',
+            linkedin:'abhay-narayan-76114b1ba',
+            insta:'abhay_narayan_00',
+        },
+    },
+    {
+        name:'Rahul kumar',
+        // pos:'Event Coordinator',
+        company:'',
+        imgSrc:'rahul_kumar.png',
+        socials:{
+            github:'',
+            email:'01rahulkumaar@gmail.com',
+            linkedin:'rahul-kumar-482219238',
+            insta:'rahul.kumar11',
+        },
+    },
+    {
+        name:'Aayushi Singh',
+       // pos:'Head Editor',
+       company:'',
+        imgSrc:'aayushi_singh.png',
+        socials:{
+            github:'',
+            email:'aayushisingh086@gmail.com',
+            linkedin:'aayushi-singh-5107bb256',
+            insta:'',
+        },
+    },
+    
+    {
+        name:'Chinmay Gari',
+       // pos:'Alumni Incharge',
+       company:'',
+        imgSrc:'chinmay_gari.png',
+        socials:{
+            github:'',
+            email:'chinmaygari@gmail.com',
+            linkedin:'',
+            insta:'__ch_in_may__',
+        },
+    },
+    {
+        name:'Kheya Rani Das',
+        //pos:'Public Relation Officer',
+        company:'',
+        imgSrc:'kheya_das.png',
+        socials:{
+            github:'kheya19',
+            email:'kheyadas1919@gmail.com',
+            linkedin:'kheya-das-73266921a',
+            insta:'kheya__das',
+        },
+    },
+         
+]
 
 
 
