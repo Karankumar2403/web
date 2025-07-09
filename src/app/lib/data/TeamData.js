@@ -152,7 +152,7 @@ export const TeamData2k22 =[
      {
         name:'Shikha Rani Singh ',
         pos:'Editor-in-Chief',
-        imgSrc:'ShikhaRaniSingh.jpg',
+        imgSrc:'Shikha Rani Singh.jpg',
         socials:{
             github:'Shikha01052001',
             email:'shikharanisingh639@gmail.com',
