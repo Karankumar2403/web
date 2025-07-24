@@ -24,7 +24,7 @@ export const TeamData2k22 =[
     {
         name:'Deepak kumar Rajak',
         pos:'Vice President & PRO',
-        imgSrc:'deepak_rajak.png',
+        imgSrc:'Deepak.png',
         socials:{
             github:'Iamdeepak4551',
             email:'iamdeepak4551@gmail.com',
@@ -35,7 +35,7 @@ export const TeamData2k22 =[
     {
         name:'Harsh Raj',
         pos:'General Secretary',
-        imgSrc:'harsh.png',
+        imgSrc:'Harsh_Raj.png',
         socials:{
             github:'',
             email:'rharsh808@gmail.com',
@@ -116,7 +116,7 @@ export const TeamData2k22 =[
      {
         name:'Deepak Sawaiyan',
         pos:'Design Head',
-        imgSrc:'deepak_sewaiyan.png',
+        imgSrc:'Deepak Sawaiyan (1).png',
         socials:{
             github:'Deepak200385',
             email:'dk4142918@gmail.com',
