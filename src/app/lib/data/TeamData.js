@@ -116,7 +116,7 @@ export const TeamData2k22 =[
      {
         name:'Deepak Sawaiyan',
         pos:'Design Head',
-        imgSrc:'deepak_sawaiyan.png',
+        imgSrc:'deepak_sawaiyan.jpg',
         socials:{
             github:'Deepak200385',
             email:'dk4142918@gmail.com',
