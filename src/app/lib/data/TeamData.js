@@ -35,7 +35,7 @@ export const TeamData2k22 =[
     {
         name:'Harsh Raj',
         pos:'General Secretary',
-        imgSrc:'Harsh_Raj.png',
+        imgSrc:'harsh_Raj.png',
         socials:{
             github:'',
             email:'rharsh808@gmail.com',
@@ -116,7 +116,7 @@ export const TeamData2k22 =[
      {
         name:'Deepak Sawaiyan',
         pos:'Design Head',
-        imgSrc:'Deepak Sawaiyan (1).png',
+        imgSrc:'deepak_s.png',
         socials:{
             github:'Deepak200385',
             email:'dk4142918@gmail.com',
